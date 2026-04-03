@@ -15,4 +15,4 @@ jobs:
       run:  mvn -B verify sonar:sonar -Dsonar.projectKey=newactivity-2_newactivity-2 -Dsonar.organization=newactivity-2 -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=$SONAR_TOKEN
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
